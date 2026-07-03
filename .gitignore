@@ -1,0 +1,36 @@
+# ===================== Python 缓存文件（过滤 crypto_DCA 里的pyc） =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.env
+
+# ===================== 数据json文件（不需要上传的行情数据） =====================
+crypto_DCA/src/DCA_data/*.json
+
+# ===================== 系统垃圾文件 =====================
+# Windows
+Thumbs.db
+desktop.ini
+# Mac
+.DS_Store
+
+# ===================== IDE编辑器缓存 =====================
+# VSCode
+.vscode/
+*.code-workspace
+# PyCharm
+.idea/
+*.iml
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# ===================== 日志、临时文件 =====================
+*.log
+*.tmp
+*.bak
